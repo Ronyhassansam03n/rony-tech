@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Rony IT Tech</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <style>
+        .pic-overlay{
+            filter: brightness(50%);
+        }
+    </style>
   </head>
 
   <body>
@@ -63,28 +68,39 @@
 </header>
 <!--=================================== header end======================== -->
     
-<main>
+<main class="mb-5 mt-5 ">
     <!-- slieder section -->
-
-    <div id="carouselExampleControls" class="carousel slide container mt-5 mb-5 " data-bs-ride="carousel">
-        <div class="carousel-inner  ">
+    <div id="carouselExampleControls" class="carousel slide container" data-bs-ride="carousel">
+        <div class="carousel-inner">
             <!-- pic 01 -->
-          <div class="carousel-item active">
-            <img src="images/cover/cover-1.png" class="d-block w-100" alt="cover-1">
-            <div class="carousel-caption d-none d-md-block mb-5">
-                <h1 class=" ">Wanna Get Great Future Then Have it ! </h1>
-                <p>Some representative placeholder content for the first slide.</p>
+          <div class="carousel-item active ">
+            <img  src="images/cover/cover-1.png" class=" pic-overlay d-block w-100 " alt="cover-1">
+            <div class="carousel-caption d-flex flex-column justify-content-center align-items-center h-50  d-md-block mb-5 ">
+                <h1> Get a Better Future By Us</h1>
+                <p> Everything is possible, Do Hard Work and dont give up </p>
+                <button type="button" class="btn btn-primary">Buy Course</button>
               </div>
           </div>
-          </div>
+          
           <!-- pic 02 -->
           <div class="carousel-item">
-            <img src="images/cover/cover-2.jpg" class="d-block w-100" alt="cover-2">
+            <img src="images/cover/cover-1.png" class=" pic-overlay d-block w-100" alt="cover-2">
+            <div class="carousel-caption d-flex flex-column justify-content-center align-items-center h-50 d-none d-md-block mb-5">
+                <h1> Get a Better Future By Us</h1>
+                <p> Everything is possible, Do Hard Work and dont give up </p>
+                <button type="button" class="btn btn-primary">Buy Course</button>
+              </div>
           </div>
           <!-- pic 03 -->
           <div class="carousel-item">
-            <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="cover-3">
+            <img src="images/cover/cover-3.jpg" class=" pic-overlay d-block w-100" alt="cover-3">
+            <div class="carousel-caption d-flex flex-column justify-content-center align-items-center h-50 d-none d-md-block mb-5">
+                <h1> Get a Better Future By Us</h1>
+                <p> Everything is possible, Do Hard Work and dont give up </p>
+                <button type="button" class="btn btn-primary">Buy Course</button>
+              </div>
           </div>
+        </div>
         </div>
         <!-- side button scetion  -->
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -95,7 +111,7 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
-      </div>
+      
 
 </main>
 
